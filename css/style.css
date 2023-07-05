@@ -136,6 +136,13 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin-bottom: 42px;
+  display: flex;
+  width: 496px;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 0 auto;
 }
 .hero-btn {
   color: #fff;
@@ -146,6 +153,13 @@ body {
   font-family: inherit;
   cursor: pointer;
   background-color: var(--iris);
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+
+.hero-container {
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -154,11 +168,15 @@ body {
 /*-----------------------------Our Options ----------------------------*/
 .our-options {
   background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .our-options-list {
+  display: flex;
+  gap: 24px;
 }
 .our-options-item {
-  list-style-type: none;
+  width: calc((100% - 24px * 3) / 4);
 }
 .our-options-subtitle {
   font-size: 20px;
@@ -166,6 +184,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  margin-bottom: 8px;
 }
 .our-options-text {
   font-size: 16px;
@@ -174,6 +193,10 @@ body {
   color: var(--slate);
 }
 /*------------------------- We Doing ---------------------------------------*/
+.we-doing {
+  padding-top: 120px;
+}
+
 .we-doing-title {
   font-size: 36px;
   font-weight: 700;
@@ -182,6 +205,9 @@ body {
   color: var(--navyblue);
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  max-width: 353px;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 .we-doing-list {
   list-style-type: none;
