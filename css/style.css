@@ -96,14 +96,15 @@ body {
   flex-grow: 1;
   justify-content: space-between;
 }
+
 .header-menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
+
 .header-menu-item {
-  padding: 24px 0;
 }
+
 .header-menu-link {
   text-decoration: none;
   font-size: 16px;
@@ -112,6 +113,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  padding: 24px 0;
 }
 
 .header-social {
@@ -278,6 +280,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--navyblue);
   text-align: center;
+  margin-bottom: 8px;
 }
 .team-position {
   color: #434455;
@@ -285,7 +288,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-top: 8px;
+}
+
+.container-team-position {
+  padding: 32px 16px;
 }
 /*----------------------------- footer ----------------------------------*/
 .footer {
