@@ -329,9 +329,14 @@ body {
 }
 /*------------------------- Directional buttons -------------------------*/
 .directional-buttons {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .directional-buttons-list {
-  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 .directional-buttons-item {
 }
@@ -344,11 +349,15 @@ body {
   font-family: inherit;
   background: #f4f4fd;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .directional-buttons-btn:hover,
 .directional-buttons-btn:focus {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 /*---------------------------------services----------------------------------*/
 
