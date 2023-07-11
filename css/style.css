@@ -38,6 +38,7 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
   height: auto;
 }
 
@@ -63,8 +64,6 @@ body {
 /*-----------------------Header---------------------*/
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -93,8 +92,6 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
-  flex-grow: 1;
-  justify-content: space-between;
 }
 
 .header-menu {
@@ -114,6 +111,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--navyblue);
   padding: 24px 0;
+  display: block;
 }
 
 .header-social {
@@ -123,7 +121,7 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  gap: 90px;
+  justify-content: space-between;
 }
 
 .header-social-list {
@@ -162,12 +160,10 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin-bottom: 42px;
-  display: flex;
   width: 496px;
   flex-direction: column;
-  flex-shrink: 0;
   margin: 0 auto;
+  margin-bottom: 42px;
 }
 .hero-btn {
   color: #fff;
@@ -188,8 +184,6 @@ body {
 }
 
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 292px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -225,7 +219,6 @@ body {
 }
 /*------------------------- We Doing ---------------------------------------*/
 .we-doing {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -237,8 +230,6 @@ body {
   color: var(--navyblue);
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  max-width: 353px;
-  margin: 0 auto;
   margin-bottom: 72px;
 }
 .we-doing-list {
@@ -306,7 +297,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  padding-top: 17px;
 }
 .footer-logo-accent {
   color: #f4f4fd;
